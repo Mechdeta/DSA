@@ -11,7 +11,7 @@ class Solution {
     void recur(int open,int close,int n,List<String> list,StringBuilder ans){
             if(open==n&&close==n){
                 list.add(ans.toString());
-                return;
+                //return;
             }
             if(open<n){
                 int len=ans.length();
